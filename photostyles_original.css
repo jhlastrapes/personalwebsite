@@ -4,13 +4,13 @@ body {
 	/* background-color: rgb(75, 89, 110); */
 }
 
-#bootstrap_h1 {
+h1 {
 	font-family: Exo, sans-serif;
 	margin-bottom: 2%;
-	margin-top: 4%;
+	margin-top: 2%;
 	margin-left: 10%;
 	width: 80%;
-	text-indent: 10px;
+	text-indent: 1.25%;
 	font-size: 2.2vw;
 }
 
@@ -30,12 +30,29 @@ body {
 	letter-spacing: 0px;
 }
 
-#div_top {
-	margin-top: 0px;
+
+#right a:link {
+	font-family: Exo, sans-serif;
+	font-weight: 600;
+	font-size: 70%;
+	color: rgb(133, 149, 172);
+	text-indent: 40%;	
+	text-decoration: none;
+	/* text-transform: uppercase; */
 }
 
-#bts_img {
-	padding: 0px 15px 0px 0px;
+#right a:visited {
+	font-family: Exo, sans-serif;
+	font-weight: 600;
+	font-size: 70%;
+	color: rgb(147, 163, 185);
+	text-indent: 40%;	
+	text-decoration: none;
+	/* text-transform: uppercase; */
+}
+
+.inlineEl {
+	display: inline;
 }
 
 #images {
@@ -46,14 +63,17 @@ body {
 #images img {
 	filter: grayscale(100);
 	float: left;
-	width: 95%;  /*  necessary otherwise pictures will be full size */
-	margin: 15px;
-	padding: 0px;
+	/* border: 3px solid rgb(75, 89, 110); */
+	width: 22%;
+	margin: 1.25%
 }
 
 
 
 #images img:hover {
+	/* padding: 1px;
+	border: 2px solid red;
+	width: 21%; */
 	filter: grayscale(0);
 }
 
