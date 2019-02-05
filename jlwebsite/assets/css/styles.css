@@ -1,0 +1,14 @@
+
+.logo {
+	margin: 0 10px 0 70px;
+	width: 40px;
+	opacity: 0.9;
+}
+
+
+
+@media only screen and (max-width: 650px){
+	.logo {
+		margin: 0;
+		width: 35px;
+	}
