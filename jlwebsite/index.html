@@ -9,13 +9,16 @@
 	<link href="https://fonts.googleapis.com/css?family=Exo:400,600" rel="stylesheet"> 
 	<link rel="stylesheet" href="assets/bootstrap-4.2.1/css/bootstrap.min.css">	
 	<link rel="stylesheet" href="assets/css/styles.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
+	<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5ceafc51af7d000012cb0d4a&product=inline-follow-buttons' async='async'></script>
 </head>
 
 
 <body>
 
 	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-		<a class="navbar-brand" href="http://www.jaylastrapes.com"><img class="logo" src="images/jl_logo.png" alt="jl_logo"></a>
+		<a class="navbar-brand" href="http://www.jaylastrapes.com"><img class="logo" src="assets/images/jl_logo.png" alt="jl_logo"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -25,13 +28,13 @@
 					<a class="nav-link" href="http://www.jaylastrapes.com">Home <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item mx-2">
-					<a class="nav-link" href="http://www.jaylastrapes.com/photoblog/">Photoblog</a>
+					<a class="nav-link" href="http://www.jaylastrapes.com/photoblog/" target="_blank">Photoblog</a>
 				</li>
 				<li class="nav-item mx-2">
-					<a class="nav-link" href="http://www.jaylastrapes.com/colorgame/">Color Game</a>
+					<a class="nav-link" href="http://www.jaylastrapes.com/colorgame/" target="_blank">Color Game</a>
 				</li>
 				<li class="nav-item mx-2">
-					<a class="nav-link" href="http://www.jaylastrapes.com/todolist/">To-Do List</a>
+					<a class="nav-link" href="http://www.jaylastrapes.com/todolist/" target="_blank">To-Do List</a>
 				</li>
 				<!-- <li class="nav-item dropdown mx-2">
 					<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -41,62 +44,102 @@
 						<a class="dropdown-item" href="http://www.jaylastrapes.com/photoblog/">Photoblog</a>
 						<a class="dropdown-item" href="http://www.jaylastrapes.com/colorgame/">Color Game</a>
 						<a class="dropdown-item" href="http://www.jaylastrapes.com/todolist/">To-Do List</a>
-						<div class="dropdown-divider"></div>
-						<a class="dropdown-item" href="#">Something else here</a>
 					</div>
 				</li> -->
 			</ul>
-			<!-- <form class="form-inline my-2 my-lg-0">
-				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-			</form> -->
 		</div>
 	</nav>
 
-	<div class="container my-3">
-		<div class="jumbotron">
-			<h4 class="display-4">Hi!</h4>
-			<p class="lead d-none d-md-block">Welcome to my online website portfolio, www.jaylastrapes.com.  See below for websites and apps that I've created while learning programming and web-design concepts.</p>
-			<!-- <hr class="my-4">
-			<p>Hides text above on md or below</p> -->
+
+	<div>
+		<video class="videoIntro" src="assets/images/introJL.mp4" autoplay loop muted></video>
+	</div>
+
+	<div class="sections">
+		
+		<div class="abtContainer">
+			<img class="jhlPhoto" alt="Jay Lastrapes" src="assets/images/jhl_photo_feathered.jpg"></img>
+			<div class="abt topToBottom align-items-center">About</div>
+
+			<div class="abtContent">
+				<div class="abtIntro">
+					The <span class="dopeBG">creativity</span> and <span class="dopeBG">visualization skills</span> to see the finished product with the technical problem solving skills to make it happen.
+				</div>
+				<div class="abtBody">
+					I'm a self-taught front-end developer who enjoys nothing more than seeing unique and novel ideas come to life.  I believe that intuitive functionality and attention to detail can be the difference between good and great, or a returning customer vs a passerby. 
+				</div>
+				<div class="abtThx">
+					See below for resume and contact information.
+				</div>
+
+			</div>
 		</div>
 	</div>
 
-	<div class="row container mx-auto my-5">
-		<div class="col-sm-4 px-4 my-2">
-			<a href="http://www.jaylastrapes.com/photoblog/">
-				<img class="img-fluid" src="images/photoblog.jpg" alt="Photo Blog">
-				<h6 class="display-block text-dark my-1 d-flex justify-content-center">Photo-blog</h6>
-			</a>
-		</div>
-		<div class="col-sm-4 px-4 my-2">
-			<a href="http://www.jaylastrapes.com/colorgame/">
-				<img class="img-fluid" src="images/colorgame.jpg" alt="Color Game">
-				<h6 class="display-block text-dark my-1 d-flex justify-content-center">Color Game</h6>
-			</a>
-		</div>
-		<div class="col-sm-4 px-4 my-2">
-			<a href="http://www.jaylastrapes.com/todolist">
-				<img class="img-fluid" src="images/todolist.jpg" alt="To-do List">
-				<h6 class="display-block text-dark my-1 d-flex justify-content-center">To-do List</h6>
-			</a>
-		</div>
+	<div class="resumeDiv">
 
-		<!-- <div role="main" class="ui-content"> 
-			<a href="#" class="ui-btn ui-btn-b ui-btn-icon-left ui-icon-info ui-corner-all" id="foo">Click here</a>
-		</div> -->
+		<a href="assets/jhl_resume.pdf" target="_blank" title="Jay Lastrapes Resume"><img class="resumePDF" src="assets/images/jhl_resume.jpg" alt="Jay Lastrapes Resume"></a>
 
+		<div class="resume">Resu<span class="dopeBG">m</span>e</div>
+
+				
+		<div class="resumeClick">
+			<div class="iconClick">
+				<i class="fas fa-reply"></i>
+			</div>
+			<div class="msgClick">Click to open</div>
+		</div>
+	</div>
+
+
+	<div class="sitesDiv">
+		<div class="sitesTxt"><img src="assets/images/sites.jpg" alt="sites"></div>
+	
+		<div class="row container mx-auto my-5">
+			<div class="col-md-6 my-4">
+				<a href="http://www.mjscafebr.com/" target="_blank">
+					<img class="img-fluid d-flex justify-content-center sitesImgs" src="assets/images/macbookMJs.png" alt="MJ's Cafe">
+					<h6 class="display-block my-1 d-flex justify-content-center sitesLinkTxt">MJ's Cafe</h6>
+				</a>
+			</div>
+			<div class="col-md-6 my-4">
+				<a href="http://www.jaylastrapes.com/photoblog/" target="_blank">
+					<img class="img-fluid d-flex justify-content-center sitesImgs" src="assets/images/macbookPB.png" alt="Photoblog">
+					<h6 class="display-block my-1 d-flex justify-content-center sitesLinkTxt">Photoblog</h6>
+				</a>
+			</div>
+			<div class="col-md-6 my-4">
+				<a href="http://www.jaylastrapes.com/todolist" target="_blank">
+					<img class="img-fluid d-flex justify-content-center sitesImgs" src="assets/images/macbookTDL.png" alt="To-do List">
+					<h6 class="display-block my-1 d-flex justify-content-center sitesLinkTxt">To-Do List</h6>
+				</a>
+			</div>
+			<div class="col-md-6 my-4">
+				<a href="http://www.jaylastrapes.com/colorgame/" target="_blank">
+					<img class="img-fluid d-flex justify-content-center sitesImgs" src="assets/images/macbookCG.png" alt="Color Game">
+					<h6 class="display-block my-1 d-flex justify-content-center sitesLinkTxt">Color Game</h6>
+				</a>
+			</div>
+
+
+		</div>
 	</div>
 	
-	
+	<footer>
+		<div class="followDiv">
+			<h2 class="followMe">Follow Me: </h2>
+			<a href="https://www.linkedin.com/in/jhlastrapes/" target="_blank" class="inIcon"><img src="assets/images/inW.png" alt="Jay Lastrapes on Instagram" class="inIconImg"></a>
+			<a href="https://www.instagram.com/jhlast/" target="_blank" class="instaIcon"><img src="assets/images/instaW.png" alt="Jay Lastrapes on Instagram" class="instaIconImg"></a>
+			<a href="https://www.facebook.com/jlastrapes09/" target="_blank" class="facebookIcon"><img src="assets/images/fbW.png" alt="Jay Lastrapes on Facebook" class="facebookIconImg"></a>
+		</div>
+	</footer>	
 
-	<script
-		src="https://code.jquery.com/jquery-3.3.1.js"
-		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-		crossorigin="anonymous">
-	</script>
 
+
+	<script src="assets/js/lib/jquery-3.3.1.min.js"></script>
 	<script src="assets/bootstrap-4.2.1/js/bootstrap.min.js"></script>
+	<script src="assets/js/jlwebsite.js"></script>
+
 
 </body>
 </html>
